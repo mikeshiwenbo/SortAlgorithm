@@ -1,3 +1,5 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Random;
 
 public class Test {
@@ -39,7 +41,7 @@ public class Test {
 		for(int i:a){
 			System.out.println(i);
 		}
-
+		Arrays.sort(a);
 
 	}
 
